@@ -1,0 +1,30 @@
+{
+  "name": "query-builder",
+  "version": "0.0.1",
+  "description": "A simple MySQL query builder",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JanFoerste/node-query-builder.git"
+  },
+  "keywords": [
+    "mysql",
+    "query",
+    "builder",
+    "query-builder"
+  ],
+  "author": "JanFoerste <me@janfoerste.de>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/JanFoerste/node-query-builder/issues"
+  },
+  "homepage": "https://github.com/JanFoerste/node-query-builder#readme",
+  "devDependencies": {
+    "@types/node": "^9.4.7",
+    "typescript": "^2.7.1"
+  }
+}
